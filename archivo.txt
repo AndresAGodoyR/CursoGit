@@ -4,4 +4,5 @@ git commit -m "comentario de por que el commit": guarda la version del archivo e
 git status: nos muestra el estado de los archivos en los distintos proceso git (WD, SA, Git)
 git log: nos muestra los ultimos movimientos realizados en git 
 git remote add <nombre del repositorio local> <ruta de repositorio remoto como: https://github>
+git push <nombre repositorio local> <nombre repositorio remoto>
 
