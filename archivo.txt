@@ -1,1 +1,7 @@
-alfjasdf sdfasdfaf alsjalsfjlasd
+git init: en carpeta de trabajo ejecutar este comando para ligar la carpeta con git (working directory)
+git add <archivo.extension>: para sumar el archivo al listado disponible para posterior commit (steging area)
+git commit -m "comentario de por que el commit": guarda la version del archivo en bbdd de Git.
+git status: nos muestra el estado de los archivos en los distintos proceso git (WD, SA, Git)
+git log: nos muestra los ultimos movimientos realizados en git 
+git remote add <nombre del repositorio local> <ruta de repositorio remoto como: https://github>
+
