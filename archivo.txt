@@ -6,3 +6,11 @@ git log: nos muestra los ultimos movimientos realizados en git
 git remote add <nombre del repositorio local> <ruta de repositorio remoto como: https://github>
 git push <nombre repositorio local> <nombre repositorio remoto> : sube los cambios guardados con commit local al repositorio remoto.
 git pull <nombre repositorio local> <nombre repositorio remoto> : trae los cambios del repositorio remoto subidos por otros, al repositorio local.
+
+git clean -f <nombre del archivo> : elimina el archivo del working directory si es que no esta trackeado
+git checkout <nombre del archivo> : elimana el archivo del working directory aunque este trackeado
+git reset <nombre del archivo> : elimina el archivo de steging area y lo deja en working directory, si no se especifica el el archivo, devuelve todos los archivos traqueados al working directory.
+
+git revert <numero unico de commit> : crea un nuevo commit reversando los fuentes a la version de commit especificada.
+
+
